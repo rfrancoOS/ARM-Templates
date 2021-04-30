@@ -24,6 +24,6 @@ jobs:
         uses: azure/arm-deploy@v1
         with:
           scope: resourcegroup
-          subscriptionId: ${{ env.AZURE_SUBSCRIPTION_ID }}
-          resourceGroupName: ${{ env.AZURE_RESOURCE_GROUP }}
+          subscriptionId: 3431ceb7-13cf-4a73-b4cc-69dd27b813bf
+          resourceGroupName: ARM-tests-rg
           template: ./azuredeploy.json
