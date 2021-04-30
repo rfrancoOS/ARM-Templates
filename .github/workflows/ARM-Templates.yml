@@ -5,7 +5,7 @@ on:
     branches:
       - master
 env:
-  AZURE_SUBSCRIPTION_ID: 3431ceb7-13cf-4a73-b4cc-69dd27b813bf   # set this to your Azure Subscription Id
+  AZURE_SUBSCRIPTION_ID: << 3431ceb7-13cf-4a73-b4cc-69dd27b813bf >>   # set this to your Azure Subscription Id
   AZURE_RESOURCE_GROUP: ARM-tests-rg   # set this to your target resource group
 
 jobs:
